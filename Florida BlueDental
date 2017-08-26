@@ -20,9 +20,9 @@
 
    
       <label for="name">Name: </label>
-      <input id="name" name="name" placeholder="What your Mom calls you" />
+      <input id="name" name="name" />
    
-      <label for="name">Phone: </label>
+      <label for="phone">Phone: </label>
       <input id="phone" name="phone"  value="" 
        required placeholder="Best number to reach you" />
       <span id="phone-invalid" style="display:none">
