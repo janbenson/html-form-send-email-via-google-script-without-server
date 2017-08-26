@@ -35,7 +35,7 @@
         Must be a valid email address</span>
       <input id="carrier" type = hidden name="carrier" value="Florida Blue Dental" />
    
-         <label for="Date of Birth">Date of Birth: </label>
+         <label for="Date of Birth">DOB: </label>
       <input id="dob" name="dob" placeholder="Enter your Date of Birth MM/DD/YYYY" />
             <label for="name">Income: </label>
       <input id="income" name="income" placeholder="Your monthly income" />
