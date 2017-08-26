@@ -38,7 +38,7 @@
    
          <label for="Date of Birth">Date of Birth: </label>
       <input id="dob" name="dob" placeholder="Enter your Date of Birth MM/DD/YYYY" />
-            <label for="name">Name: </label>
+            <label for="name">Income: </label>
       <input id="income" name="income" placeholder="Your monthly income" />
 
     <button class="button-success pure-button">
