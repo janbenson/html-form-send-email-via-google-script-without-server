@@ -23,15 +23,14 @@
    <!-- Style The Contact Form How Ever You Prefer -->
    <link rel="stylesheet" href="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/style.css">
 
-  <form id="gform" method="POST" class="pure-form pure-form-stacked"
+  <form id="gform" method="POST" class="pure-form pure-form-aligned"
   action="https://script.google.com/macros/s/AKfycbxV_TlHTSp7WNOHRlYK8Dcjba8TaULv8FNevQVsRk9apGpdkAak/exec">
     <!-- change the form action to your script url -->
 
     <fieldset class="pure-group">
       <label for="name">Name: </label>
       <input id="name" name="name" placeholder="What your Mom calls you" />
-    </fieldset>
-    <fieldset class="pure-group">
+   
       <label for="name">Phone: </label>
       <input id="phone" name="phone"  value="" 
        required placeholder="Best number to reach you" />
@@ -45,13 +44,10 @@
       required placeholder="your.name@email.com"/>
       <span id="email-invalid" style="display:none">
         Must be a valid email address</span>
-    </fieldset>
-
-    <fieldset class="pure-group">
       <input id="carrier" type = hidden name="carrier" value="National General" />
     </fieldset>
 
-    <button class="button-success pure-button button-xlarge">
+    <button class="button-success pure-button">
       <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
 
   </form>
