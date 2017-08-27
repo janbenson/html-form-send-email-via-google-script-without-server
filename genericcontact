@@ -27,7 +27,7 @@ body {
 
       
 <fieldset class="pure-group">
-      <input id="name" name="name" placeholder=Name />
+      <input id="name" name="name" placeholder=name />
       <input id="phone" name="phone"  value=phone />
       <span id="phone-invalid" style="display:none">
         Must be a valid phone number</span>
@@ -36,7 +36,7 @@ body {
         Must be a valid email address</span>
 
         
-        <input type=“date”  placeholder=DOB>
+        <input type=“date”  placeholder=birthdate>
         <input type="checkbox" class="pure-checkbox" name=“carrier” value=“Health”>Health 
         <input type="checkbox" class="pure-checkbox" name="carrier" value=“Dental”>Dental
         <input type="checkbox" class="pure-checkbox" name=“carrier” value=“Vision”>Vision 
