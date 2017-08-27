@@ -24,12 +24,25 @@ body {
   action="https://script.google.com/macros/s/AKfycbxV_TlHTSp7WNOHRlYK8Dcjba8TaULv8FNevQVsRk9apGpdkAak/exec">
     <!-- change the form action to your script url -->
 
-   <fieldset class="pure-group">
+
       
 <fieldset class="pure-group">
-        <input type="text" placeholder=Name>
-        <input type=“tel”  placeholder=Phone>
-        <input type="email"  placeholder=Email>
+<label for="name">Name: </label>
+      <input id="name" name="name" placeholder=Name />
+   
+      <label for="name">Phone: </label>
+      <input id="phone" name="phone"  value="" 
+       required placeholder="Best number to reach you" />
+      <span id="phone-invalid" style="display:none">
+        Must be a valid phone number</span>
+   
+      <label for="email"> Email Address:</label>
+      <input id="email" name="email" type="email" value="email"
+      required placeholder="your.name@email.com"/>
+      <span id="email-invalid" style="display:none">
+        Must be a valid email address</span>
+
+        
         <input type=“date”  placeholder=DOB>
         <input type="checkbox" class="pure-checkbox" name=“carrier” value=“Health”>Health 
         <input type="checkbox" class="pure-checkbox" name="carrier" value=“Dental”>Dental
