@@ -9,7 +9,7 @@
 <body>
   
 <!-- START HERE -->
-<!-- link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
    <!-- Style The Contact Form How Ever You Prefer -->
    <link rel="stylesheet" href="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/style.css">
@@ -18,28 +18,21 @@
   action="https://script.google.com/macros/s/AKfycbxV_TlHTSp7WNOHRlYK8Dcjba8TaULv8FNevQVsRk9apGpdkAak/exec">
     <!-- change the form action to your script url -->
 
-   
-      <label for="name">Name: </label>
-      <input id="name" name="name" />
-   
-      <label for="phone">Phone: </label>
-      <input id="phone" name="phone"  value="" 
-       required placeholder="Best number to reach you" />
-      <span id="phone-invalid" style="display:none">
-        Must be a valid phone number</span>
-   
-      <label for="email"> Email Address:</label>
-      <input id="email" name="email" type="email" value=""
-      required placeholder="your.name@email.com"/>
-      <span id="email-invalid" style="display:none">
-        Must be a valid email address</span>
-      <input id="carrier" type = hidden name="carrier" value="Florida Blue Dental" />
-   
-         <label for="Date of Birth">DOB: </label>
-      <input id="dob" name="dob" placeholder="Enter your Date of Birth MM/DD/YYYY" />
-            <label for="name">Income: </label>
-      <input id="income" name="income" placeholder="Your monthly income" />
+   <fieldset class="pure-group">
+      
+<fieldset class="pure-group">
+        <input type="text" class="pure-input-1-2" placeholder=Name>
+        <input type=“tel” class="pure-input-1-2" placeholder=Phone>
+        <input type="email" class="pure-input-1-2" placeholder=Email>
+        <input type=“date” class="pure-input-1-2" placeholder=DOB>
+        
+        <input id="carrier" type = hidden name="carrier" value=Generic />
+    </fieldset>
 
+  <input type="checkbox" name=“carrier” value=“Health”>Health 
+  <input type="checkbox" name="carrier" value=“Dental”>Dental
+   <input type="checkbox" name=“carrier” value=“Vision”>Vision 
+  <input type="checkbox" name="carrier" value=“Life”>Life
     <button class="button-success pure-button">
       <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
 
