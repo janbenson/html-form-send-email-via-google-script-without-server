@@ -31,7 +31,7 @@ body {
       <input id="phone" name="phone"  value=phone />
       <span id="phone-invalid" style="display:none">
         Must be a valid phone number</span>
-      <input id="email" name="email" type=email value=email/>
+      <input id="email" name="email" type=email value=email />
       <span id="email-invalid" style="display:none">
         Must be a valid email address</span>
 
