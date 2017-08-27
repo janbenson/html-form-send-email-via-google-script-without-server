@@ -25,14 +25,14 @@
         <input type=“tel” class="pure-input-1-2" placeholder=Phone>
         <input type="email" class="pure-input-1-2" placeholder=Email>
         <input type=“date” class="pure-input-1-2" placeholder=DOB>
-        
+        <input type="checkbox" name=“carrier” value=“Health”>Health 
+        <input type="checkbox" name="carrier" value=“Dental”>Dental
+        <input type="checkbox" name=“carrier” value=“Vision”>Vision 
+        <input type="checkbox" name="carrier" value=“Life”>Life
         <input id="carrier" type = hidden name="carrier" value=Generic />
     </fieldset>
 
-  <input type="checkbox" name=“carrier” value=“Health”>Health 
-  <input type="checkbox" name="carrier" value=“Dental”>Dental
-   <input type="checkbox" name=“carrier” value=“Vision”>Vision 
-  <input type="checkbox" name="carrier" value=“Life”>Life
+ 
     <button class="button-success pure-button">
       <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
 
