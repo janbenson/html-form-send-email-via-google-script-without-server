@@ -34,7 +34,6 @@ body {
       <input id="email" name="email" type="email" value=email />
       <span id="email-invalid" style="display:none">
         Must be a valid email address</span>
-     <input id="dob" name="dob" placeholder=dateofbirth />
 
         
         <input type=“date”  placeholder=birthdate>
