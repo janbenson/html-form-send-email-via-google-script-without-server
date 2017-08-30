@@ -34,13 +34,12 @@ body {
       <input id="email" name="email" type="email" value=email />
       <span id="email-invalid" style="display:none">
         Must be a valid email address</span>
+     <input id="dob" name="dob" placeholder=dateofbirth />
 
         
         <input type=“date”  placeholder=birthdate>
-        <input type="checkbox" class="pure-checkbox" name=“carrier” value=“Health”>Health 
-        <input type="checkbox" class="pure-checkbox" name="carrier" value=“Dental”>Dental
-        <input type="checkbox" class="pure-checkbox" name=“carrier” value=“Vision”>Vision 
-        <input type="checkbox" class="pure-checkbox" name="carrier" value=“Life”>Life
+        <input type="checkbox" class="pure-checkbox" name=“carrier” value=“Florida Blue”>Florida Blue 
+        <input type="checkbox" class="pure-checkbox" name="carrier" value=“SureBridge”>SureBridge
         
     </fieldset>
 
